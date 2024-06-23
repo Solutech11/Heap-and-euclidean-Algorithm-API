@@ -11,4 +11,6 @@ app.use(require('morgan')('dev'))
 //routes
 app.use('/euclidean',require('./router/Euclidean'))
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.use('/heapsort',require('./router/HeapSort'))
+
+app.listen(port, () => console.log(`server running`))

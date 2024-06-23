@@ -4,6 +4,9 @@
   "main": "App.js",
   "author": "Goup5",
   "license": "MIT",
+  "scripts": {
+    "dev":"nodemon App"
+  },
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
