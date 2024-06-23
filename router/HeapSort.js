@@ -16,7 +16,6 @@ router.post('/',(req,res)=>{
         newArr.push(Number(i))
     })
 
-    console.log(newArr);
 
     //if error
     if(err)return res.status(500).json({Error:"String found"})
